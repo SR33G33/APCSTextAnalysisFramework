@@ -31,9 +31,10 @@ FORMAT: numStars,reviewText
 
 ### movie_reviews ###
 
+FORMAT: _unit_id,_golden,_unit_state,_trusted_judgments,_last_judgment_at,positivity,positivity:confidence,relevance,relevance:confidence,orig__golden,articleid,date,headline,lineid,next_sentence,positivity_gold,previous_sentence,relevance_gold,text
+
 **contains 4 folders which break up the total dataset into positive, negative, training and testing. Can be used for sentiment analysis based on which folder the review originates from. There are over 50,000 reviews so I suggest not testing or training all of them at the same time**
 
-FORMAT: _unit_id,_golden,_unit_state,_trusted_judgments,_last_judgment_at,positivity,positivity:confidence,relevance,relevance:confidence,orig__golden,articleid,date,headline,lineid,next_sentence,positivity_gold,previous_sentence,relevance_gold,text
 
 # More Potential Datasets can be found at
 https://cseweb.ucsd.edu/~jmcauley/datasets.html
